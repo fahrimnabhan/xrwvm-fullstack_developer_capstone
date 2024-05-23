@@ -25,8 +25,8 @@ urlpatterns = [
     ),
     path(
         route='get_cars',
-         view=views.get_cars,
-         name='getcars'
+        view=views.get_cars,
+        name='getcars'
     ),
     # path for dealer reviews view
     path(
