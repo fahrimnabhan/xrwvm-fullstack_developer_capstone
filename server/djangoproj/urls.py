@@ -41,7 +41,7 @@ urlpatterns = [
         TemplateView.as_view(template_name="Contact.html")
     ),
     path(
-        login/',
+        'login/',
         TemplateView.as_view(template_name="index.html")
     ),
     path(
